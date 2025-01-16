@@ -9,5 +9,16 @@ public class Main {
         // System.out.println(myInt);
         // System.out.println(myDouble);
         // System.out.println(myString);
+           int numberInt = 42;
+           double numberDouble = 3.14;
+           String stringTitle = "Hello, Java!";
+           System.out.println("Integer value: " + numberInt);
+           System.out.println("Double value: " + numberDouble);
+           System.out.println("String value: " + stringTitle);
+           if (numberInt > 10) {
+               System.out.println("Greater than 10");
+           } else {
+               System.out.println("Less or equal to 10");
+           }
     }
 }
