@@ -20,5 +20,7 @@ public class Main {
            } else {
                System.out.println("Less or equal to 10");
            }
+
+           
     }
 }
